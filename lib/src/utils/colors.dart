@@ -2,7 +2,7 @@ import 'dart:ui';
 
 const kWhiteColor = Color(0xFFFFFFFF);
 const kBlackColor = Color(0xFF393938);
-const kYellowColor = Color.fromARGB(238, 221, 162, 0);
+const kOrangerColor = Color(0xFFFF5D38);
 const kBlackColorPure = Color.fromARGB(255, 0, 0, 0);
 const kRedColor = Color(0xFF900119);
 const kTextColor = Color(0xFF3B3A3A);
