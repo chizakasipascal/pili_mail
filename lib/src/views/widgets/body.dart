@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pili_mail/src/utils/colors.dart';
 
 class Body extends StatelessWidget {
   const Body({
@@ -8,11 +9,14 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
-    return Container(
-      height: size.height,
-      width: size.width,
-      color: Colors.green,
-      child: const Text("Desktop Tst"),
+    return Material(
+      elevation: 2.0,
+      child: Container(
+        height: size.height,
+        width: size.width,
+        color: kWhiteColor.withOpacity(0.4),
+        child: const Text("Desktop Tst"),
+      ),
     );
   }
 }

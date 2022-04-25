@@ -56,6 +56,7 @@ class _SmallButtomDrawerState extends State<SmallButtomDrawer> {
           leading: Icon(
             widget.icon,
             color: textColor,
+            size: 13.0,
           ),
           trailing: widget.subDescription != "0"
               ? Container(
@@ -67,7 +68,7 @@ class _SmallButtomDrawerState extends State<SmallButtomDrawer> {
                   ),
                   child: Center(
                     child: Text(
-                      widget.subDescription.length != 3
+                      widget.subDescription.length < 3
                           ? widget.subDescription
                           : "${widget.subDescription.substring(0, 1)}k",
                       style: TextStyle(
