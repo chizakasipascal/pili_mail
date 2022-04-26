@@ -72,9 +72,9 @@ class _SmallButtomDrawerState extends State<SmallButtomDrawer> {
                           ? widget.subDescription
                           : "${widget.subDescription.substring(0, 1)}k",
                       style: TextStyle(
-                        color: textColor,
-                        fontSize: 8.0,
-                      ),
+                          color: textColor,
+                          fontSize: 8.0,
+                          fontWeight: FontWeight.bold),
                     ),
                   ),
                 )

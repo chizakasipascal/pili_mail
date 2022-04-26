@@ -69,15 +69,16 @@ class DrawerLeft extends StatelessWidget {
               Row(
                 children: [
                   SizedBox(
-                    width: 100,
                     height: 30,
                     child: Row(
+                      // clipBehavior: Clip.none,
                       children: const [
                         CircleAvatar(
                           backgroundColor: kOrangerColor,
                           radius: 60.0,
                           child: CircleAvatar(
                             radius: 50.0,
+                            backgroundColor: kOrangerColor,
                           ),
                         ),
                       ],
